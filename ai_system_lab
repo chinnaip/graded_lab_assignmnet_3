@@ -1,0 +1,24 @@
+AI Systems Laboratory – Graded Lab Work
+Date: 7th February 2026
+Total Marks: 15 (Answer any THREE questions out of FIVE, 5 marks each)
+Instructions:
+1. Answer any THREE questions out of FIVE.
+2. Each question carries 5 marks (3 × 5 = 15).
+3. AI plagiarism will be checked. (Do not copy paste from AI tools).
+4. Create a separate document consisting of codes along with appropriate comments and outputs.
+5. Students are free to choose any suitable dataset for each task.
+Q1. Naive Bayes Classifier
+Implement a Naive Bayes classifier using Python for a classification problem of your choice. Show data
+preprocessing, model training, prediction, and accuracy evaluation.
+Q2. K-Nearest Neighbors (KNN)
+Implement the K-Nearest Neighbors algorithm using a dataset of your choice. Justify the selection of K, explain the
+distance metric used, and report classification accuracy.
+Q3. Principal Component Analysis (PCA)
+Apply Principal Component Analysis on any suitable dataset to reduce dimensionality. Explain data standardization,
+principal components, and variance retention.
+Q4. K-Means Clustering
+Implement K-Means clustering on a dataset of your choice. Explain cluster selection, centroid computation, and
+visualize the clusters.
+Q5. Comparative Analysis
+Compare Naive Bayes, KNN, PCA, and K-Means with respect to applicability, computational complexity, strengths,
+and limitations. Provide brief conclusions.
