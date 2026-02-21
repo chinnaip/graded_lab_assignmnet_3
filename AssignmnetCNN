@@ -1,0 +1,24 @@
+AI SYSTEMS LAB – ASSIGNMENT 10
+Date: 21/02/2026
+Title: Handwritten Digit Classification using CNN on MNIST Dataset
+Duration: 2 Hours
+Dataset: MNIST Handwritten Digits Dataset
+Objective:
+• Understand Convolutional Neural Networks (CNNs)
+• Implement CNN-based image classification
+• Design two CNN models with different hidden layers
+• Compare shallow and deep CNN architectures
+Problem Statement:
+Design and implement a CNN-based system to classify handwritten digits (0–9) using the MNIST
+dataset. Students must implement two CNN models with different depths and compare their
+performance.
+Tasks:
+Task 1: Load and preprocess MNIST dataset
+Task 2: Implement Shallow CNN (1 Convolutional layer)
+Task 3: Implement Deep CNN (3 or more Convolutional layers)
+Task 4: Compare accuracy, loss, number of parameters, and training time
+Submission Requirements:
+• Jupyter Notebook (.ipynb)
+• Screenshots of training results
+• Comparison table
+• Brief observations (half page)
