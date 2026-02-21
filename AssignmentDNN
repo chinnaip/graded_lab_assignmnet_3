@@ -1,0 +1,37 @@
+Assignment: Deep Neural Network for Handwritten
+Digit Recognition
+Objective: Implement a multi-layer Deep Neural Network (DNN) to classify handwritten digits
+from the MNIST dataset with at least 97% accuracy on the test set.
+1. Dataset Overview
+The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0–9).
+● Image size: 28 \times 28 pixels.
+● Training set: 60,000 images.
+● Testing set: 10,000 images.
+2. Tasks & Requirements
+Task 1: Data Preprocessing
+Before feeding data into a DNN, it must be formatted correctly.
+● Normalization: Convert pixel values from the range [0, 255] to [0, 1].
+● Flattening: Reshape the 28 \times 28 2D images into a 1D vector of size 784 (28 \times
+28 = 784).
+Task 2: Architecture Design
+Design a Sequential model with the following layers:
+● Input Layer: 784 units.
+● Hidden Layer 1: 512 neurons with ReLU activation.
+● Dropout Layer: 20\% rate (to prevent overfitting).
+● Hidden Layer 2: 256 neurons with ReLU activation.
+● Output Layer: 10 neurons with Softmax activation (to output probabilities for each class).
+Task 3: Training Configuration
+Set up the following hyperparameters and components:
+● Loss Function: categorical_crossentropy.
+● Optimizer: Adam or RMSprop.
+● Metrics: accuracy.
+● Batch Size: 128.
+● Epochs: 10 to 20.
+3. Analysis Questions
+After completing the training, answer the following:
+1. Overfitting Check: Plot the training accuracy vs. validation accuracy. Does the model
+overfit? How can you tell?
+2. Activation Functions: What happens to the convergence speed if you replace ReLU
+with Sigmoid in the hidden layers?
+3. Error Analysis: Identify three images the model classified incorrectly. What digits were
+they, and why might the model have struggled with them?
